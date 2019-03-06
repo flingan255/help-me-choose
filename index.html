@@ -17,5 +17,16 @@
     <div>
     <img src=https://scontent.fbma3-1.fna.fbcdn.net/v/t1.0-9/14291787_511065302429559_5051396822424409794_n.jpg?_nc_cat=101&_nc_eui2=AeEfF9lwqn4nm5fDDZm6Vxu5e1nRqPUGCB3cIkR2KN5PLqEfvEqBACibpcSHWmHq9jPkeyxgKof7-BQfe-UYbtHEYXA7VMvvdgzajLb77WRgvA&_nc_ht=scontent.fbma3-1.fna&oh=1e21c698c1a64385206569541b224477&oe=5D129B26 width="92" height="164">
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(function() {
+        $('.resultSection').hide()
+        var add_option = function() {
+          $('.inputs').append('<input></input>')
+        }
+        $('.addOption').click(add_option)
+      })
+    </script>
   </body>
 </html>
